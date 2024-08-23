@@ -1,0 +1,7 @@
+com.ecomflexi.softwarelabbd.test.app-jetified-annotation-experimental-1.4.0-0 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0643338880a22ad1926a3364aba96908\transformed\jetified-annotation-experimental-1.4.0\res
+com.ecomflexi.softwarelabbd.test.app-jetified-core-1.5.0-1 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2ae4b0cf5a6870ed71fe18e1f47f90d7\transformed\jetified-core-1.5.0\res
+com.ecomflexi.softwarelabbd.test.app-androidTest-2 G:\Download\Project Sabbir Vai\makeniqalv3-master\app\build\generated\res\resValues\androidTest\debug
+com.ecomflexi.softwarelabbd.test.app-androidTest-3 G:\Download\Project Sabbir Vai\makeniqalv3-master\app\build\generated\res\rs\androidTest\debug
+com.ecomflexi.softwarelabbd.test.app-mergeDebugAndroidTestResources-4 G:\Download\Project Sabbir Vai\makeniqalv3-master\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ecomflexi.softwarelabbd.test.app-mergeDebugAndroidTestResources-5 G:\Download\Project Sabbir Vai\makeniqalv3-master\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ecomflexi.softwarelabbd.test.app-merged_res-6 G:\Download\Project Sabbir Vai\makeniqalv3-master\app\build\intermediates\merged_res\debugAndroidTest

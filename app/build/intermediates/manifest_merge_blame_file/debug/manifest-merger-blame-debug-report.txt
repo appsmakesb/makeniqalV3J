@@ -1,0 +1,1106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecomflexi.softwarelabbd"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:6:5-79
+12-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:7:5-76
+13-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:8:5-80
+14-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:9:5-81
+15-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:10:5-65
+16-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+17-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:11:5-72
+17-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+18-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:12:5-74
+18-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:12:22-71
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:13:5-77
+19-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:13:22-74
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:14:5-68
+20-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:14:22-65
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:15:5-82
+21-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:15:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:16:5-110
+22-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:16:22-107
+23    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+23-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0d6d337581ef5a0dde50af698d0931cf\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+23-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0d6d337581ef5a0dde50af698d0931cf\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+24    <permission
+24-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:8:5-10:47
+25        android:name="com.ecomflexi.softwarelabbd.permission.C2D_MESSAGE"
+25-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:9:9-63
+26        android:protectionLevel="signature" />
+26-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:10:9-44
+27
+28    <uses-permission android:name="com.ecomflexi.softwarelabbd.permission.C2D_MESSAGE" />
+28-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:12:5-79
+28-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:12:22-76
+29    <!--
+30 Required so the device vibrates on receiving a push notification.
+31         Vibration settings of the device still apply.
+32    -->
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:24:5-66
+33-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:24:22-63
+34    <!--
+35 Use to restore notifications the user hasn't interacted with.
+36         They could be missed notifications if the user reboots their device if this isn't in place.
+37    -->
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+38-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:30:5-81
+38-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:30:22-78
+39    <!-- Samsung -->
+40    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+40-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:32:5-86
+40-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:32:22-83
+41    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+41-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:33:5-87
+41-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:33:22-84
+42    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+42-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:34:5-81
+42-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:34:22-78
+43    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+43-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:35:5-83
+43-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:35:22-80
+44    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+44-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:36:5-88
+44-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:36:22-85
+45    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+45-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:37:5-92
+45-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:37:22-89
+46    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+46-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:38:5-84
+46-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:38:22-81
+47    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+47-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:39:5-83
+47-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:39:22-80
+48    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+48-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:40:5-91
+48-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:40:22-88
+49    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:41:5-92
+49-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:41:22-89
+50    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+50-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:42:5-93
+50-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:42:22-90
+51    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+51-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:43:5-73
+51-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:43:22-70
+52    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+52-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:44:5-82
+52-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:44:22-79
+53    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+53-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:45:5-83
+53-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:45:22-80
+54    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+54-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:46:5-88
+54-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:46:22-85
+55    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+55-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:47:5-89
+55-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:47:22-86
+56
+57    <permission
+57-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\3b50c78aaf1501e28c7ffccd0722e9e6\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+58        android:name="com.ecomflexi.softwarelabbd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\3b50c78aaf1501e28c7ffccd0722e9e6\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\3b50c78aaf1501e28c7ffccd0722e9e6\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.ecomflexi.softwarelabbd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\3b50c78aaf1501e28c7ffccd0722e9e6\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\3b50c78aaf1501e28c7ffccd0722e9e6\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+62
+63    <application
+63-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:18:5-410:19
+64        android:name="com.ecomflexi.softwarelabbd.activities.MyApplication"
+64-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:19:9-49
+65        android:allowBackup="true"
+65-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:20:9-35
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:21:9-77
+67        android:dataExtractionRules="@xml/data_extraction_rules"
+67-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:22:9-65
+68        android:debuggable="true"
+69        android:extractNativeLibs="false"
+70        android:fullBackupContent="@xml/backup_rules"
+70-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:23:9-54
+71        android:icon="@mipmap/ic_launcher"
+71-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:24:9-43
+72        android:label="@string/app_name"
+72-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:25:9-41
+73        android:requestLegacyExternalStorage="true"
+73-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:26:9-52
+74        android:supportsRtl="true"
+74-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:27:9-35
+75        android:theme="@style/Theme.ecomflexi"
+75-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:28:9-47
+76        android:usesCleartextTraffic="true" >
+76-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:29:9-44
+77        <meta-data
+77-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:32:9-35:54
+78            android:name="com.google.firebase.messaging.default_notification_icon"
+78-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:33:13-83
+79            android:exported="true"
+79-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:34:13-36
+80            android:resource="@mipmap/ic_launcher" />
+80-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:35:13-51
+81        <meta-data
+81-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:36:9-39:47
+82            android:name="com.google.firebase.messaging.default_notification_color"
+82-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:37:13-84
+83            android:exported="true"
+83-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:38:13-36
+84            android:resource="@color/white" />
+84-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:39:13-44
+85
+86        <provider
+86-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:41:9-50:20
+87            android:name="androidx.core.content.FileProvider"
+87-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:42:13-62
+88            android:authorities="com.ecomflexi.softwarelabbd.fileprovider"
+88-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:43:13-75
+89            android:exported="false"
+89-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:44:13-37
+90            android:grantUriPermissions="true" >
+90-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:45:13-47
+91            <meta-data
+91-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:46:13-49:58
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:47:17-67
+93                android:exported="true"
+93-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:48:17-40
+94                android:resource="@xml/provider_paths" />
+94-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:49:17-55
+95        </provider>
+96
+97        <meta-data
+97-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:51:9-54:35
+98            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+98-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:52:13-70
+99            android:exported="true"
+99-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:53:13-36
+100            android:value="ocr" />
+100-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:54:13-32
+101
+102        <uses-library
+102-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:56:9-58:40
+103            android:name="org.apache.http.legacy"
+103-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:57:13-50
+104            android:required="false" />
+104-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:58:13-37
+105
+106        <activity
+106-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:60:9-67:20
+107            android:name="com.ecomflexi.softwarelabbd.Start"
+107-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:61:13-61
+108            android:exported="true" >
+108-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:62:13-36
+109            <intent-filter>
+109-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:63:13-66:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:64:17-69
+110-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:64:25-66
+111
+112                <category android:name="android.intent.category.LAUNCHER" />
+112-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:65:17-77
+112-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:65:27-74
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:68:9-71:43
+116            android:name="com.ecomflexi.softwarelabbd.view.MainActivityc"
+116-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:69:13-74
+117            android:exported="true"
+117-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:70:13-36
+118            android:label="New Request" />
+118-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:71:13-40
+119        <activity
+119-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:72:9-75:42
+120            android:name="com.ecomflexi.softwarelabbd.Myprofile"
+120-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:73:13-65
+121            android:exported="true"
+121-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:74:13-36
+122            android:label="My profile" />
+122-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:75:13-39
+123        <activity
+123-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:76:9-79:40
+124            android:name="com.ecomflexi.softwarelabbd.Twostep"
+124-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:77:13-63
+125            android:exported="true"
+125-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:78:13-36
+126            android:label="Two step" />
+126-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:79:13-37
+127        <activity
+127-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:80:9-83:44
+128            android:name="com.ecomflexi.softwarelabbd.Addpic"
+128-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:81:13-62
+129            android:exported="true"
+129-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:82:13-36
+130            android:label="Scan Id Card" />
+130-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:83:13-41
+131        <activity
+131-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:84:9-87:42
+132            android:name="com.ecomflexi.softwarelabbd.Cropm"
+132-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:85:13-61
+133            android:exported="true"
+133-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:86:13-36
+134            android:label="Crop Image" />
+134-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:87:13-39
+135        <activity
+135-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:88:9-91:40
+136            android:name="com.ecomflexi.softwarelabbd.Billpay"
+136-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:89:13-63
+137            android:exported="true"
+137-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:90:13-36
+138            android:label="Bill pay" />
+138-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:91:13-37
+139        <activity
+139-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:92:9-95:51
+140            android:name="com.ecomflexi.softwarelabbd.New_support"
+140-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:93:13-67
+141            android:exported="true"
+141-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:94:13-36
+142            android:label="New Support Tricket" />
+142-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:95:13-48
+143        <activity
+143-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:96:9-99:47
+144            android:name="com.ecomflexi.softwarelabbd.Tricket_main_read"
+144-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:97:13-73
+145            android:exported="true"
+145-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:98:13-36
+146            android:label="Support Tricket" />
+146-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:99:13-44
+147        <activity
+147-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:100:9-103:47
+148            android:name="com.ecomflexi.softwarelabbd.Tricket_main"
+148-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:101:13-68
+149            android:exported="true"
+149-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:102:13-36
+150            android:label="Support Tricket" />
+150-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:103:13-44
+151        <activity
+151-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:104:9-107:46
+152            android:name="com.ecomflexi.softwarelabbd.RegisterActivity"
+152-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:105:13-72
+153            android:exported="true"
+153-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:106:13-36
+154            android:label="Create Account" />
+154-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:107:13-43
+155        <activity
+155-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:108:9-111:44
+156            android:name="com.ecomflexi.softwarelabbd.Welcome"
+156-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:109:13-63
+157            android:exported="true"
+157-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:110:13-36
+158            android:label="Service list" />
+158-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:111:13-41
+159        <activity
+159-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:112:9-115:45
+160            android:name="com.ecomflexi.softwarelabbd.Banktransfer"
+160-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:113:13-68
+161            android:exported="true"
+161-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:114:13-36
+162            android:label="Bank Transfer" />
+162-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:115:13-42
+163        <activity
+163-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:116:9-118:43
+164            android:name="com.ecomflexi.softwarelabbd.PinActivity"
+164-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:117:13-67
+165            android:label="Pin Confirm" />
+165-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:118:13-40
+166        <activity
+166-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:119:9-122:39
+167            android:name="com.ecomflexi.softwarelabbd.Mainlist"
+167-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:120:13-64
+168            android:exported="true"
+168-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:121:13-36
+169            android:label="History" />
+169-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:122:13-36
+170        <activity
+170-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:123:9-126:44
+171            android:name="com.ecomflexi.softwarelabbd.News"
+171-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:124:13-60
+172            android:exported="true"
+172-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:125:13-36
+173            android:label="Notice Board" />
+173-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:126:13-41
+174        <activity
+174-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:127:9-130:39
+175            android:name="com.ecomflexi.softwarelabbd.web"
+175-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:128:13-59
+176            android:exported="true"
+176-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:129:13-36
+177            android:label="Welcome" />
+177-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:130:13-36
+178        <activity
+178-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:131:9-134:38
+179            android:name="com.ecomflexi.softwarelabbd.MainActivity"
+179-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:132:13-68
+180            android:exported="true"
+180-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:133:13-36
+181            android:label="Signin" />
+181-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:134:13-35
+182        <activity
+182-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:135:9-138:35
+183            android:name="com.ecomflexi.softwarelabbd.pinver"
+183-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:136:13-62
+184            android:exported="true"
+184-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:137:13-36
+185            android:label="Pin" />
+185-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:138:13-32
+186        <activity
+186-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:139:9-142:43
+187            android:name="com.ecomflexi.softwarelabbd.DisplayActivity"
+187-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:140:13-71
+188            android:exported="true"
+188-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:141:13-36
+189            android:label="New Request" />
+189-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:142:13-40
+190        <activity
+190-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:143:9-146:43
+191            android:name="com.ecomflexi.softwarelabbd.DisplayActivitya"
+191-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:144:13-72
+192            android:exported="true"
+192-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:145:13-36
+193            android:label="New Request" />
+193-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:146:13-40
+194        <activity
+194-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:147:9-150:47
+195            android:name="com.ecomflexi.softwarelabbd.Operator"
+195-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:148:13-64
+196            android:exported="true"
+196-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:149:13-36
+197            android:label="Select Operator" />
+197-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:150:13-44
+198        <activity
+198-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:151:9-154:44
+199            android:name="com.ecomflexi.softwarelabbd.Addres"
+199-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:152:13-62
+200            android:exported="true"
+200-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:153:13-36
+201            android:label="Add reseller" />
+201-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:154:13-41
+202        <activity
+202-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:155:9-158:44
+203            android:name="com.ecomflexi.softwarelabbd.Myreseller"
+203-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:156:13-66
+204            android:exported="true"
+204-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:157:13-36
+205            android:label="Add reseller" />
+205-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:158:13-41
+206        <activity
+206-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:159:9-162:38
+207            android:name="com.ecomflexi.softwarelabbd.Signin"
+207-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:160:13-62
+208            android:exported="true"
+208-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:161:13-36
+209            android:label="Signin" />
+209-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:162:13-35
+210        <activity
+210-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:163:9-166:39
+211            android:name="com.ecomflexi.softwarelabbd.Url"
+211-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:164:13-59
+212            android:exported="true"
+212-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:165:13-36
+213            android:label="Add url" />
+213-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:166:13-36
+214        <activity
+214-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:167:9-170:40
+215            android:name="com.ecomflexi.softwarelabbd.Develop"
+215-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:168:13-63
+216            android:exported="true"
+216-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:169:13-36
+217            android:label="About us" />
+217-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:170:13-37
+218        <activity
+218-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:171:9-174:42
+219            android:name="com.ecomflexi.softwarelabbd.service_a"
+219-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:172:13-65
+220            android:exported="true"
+220-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:173:13-36
+221            android:label="Service us" />
+221-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:174:13-39
+222        <activity
+222-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:175:9-178:36
+223            android:name="com.ecomflexi.softwarelabbd.Editres"
+223-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:176:13-63
+224            android:exported="true"
+224-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:177:13-36
+225            android:label="Edit" />
+225-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:178:13-33
+226        <activity
+226-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:179:9-182:39
+227            android:name="com.ecomflexi.softwarelabbd.Payment"
+227-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:180:13-63
+228            android:exported="true"
+228-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:181:13-36
+229            android:label="Payment" />
+229-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:182:13-36
+230        <activity
+230-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:183:9-186:40
+231            android:name="com.ecomflexi.softwarelabbd.Transfer"
+231-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:184:13-64
+232            android:exported="true"
+232-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:185:13-36
+233            android:label="Transfer" />
+233-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:186:13-37
+234        <activity
+234-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:187:9-190:40
+235            android:name="com.ecomflexi.softwarelabbd.Smssend"
+235-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:188:13-63
+236            android:exported="true"
+236-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:189:13-36
+237            android:label="Send Sms" />
+237-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:190:13-37
+238        <activity
+238-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:191:9-194:39
+239            android:name="com.ecomflexi.softwarelabbd.history_op"
+239-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:192:13-66
+240            android:exported="true"
+240-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:193:13-36
+241            android:label="History" />
+241-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:194:13-36
+242        <activity
+242-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:195:9-198:47
+243            android:name="com.ecomflexi.softwarelabbd.Password"
+243-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:196:13-64
+244            android:exported="true"
+244-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:197:13-36
+245            android:label="Password Change" />
+245-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:198:13-44
+246        <activity
+246-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:199:9-202:42
+247            android:name="com.ecomflexi.softwarelabbd.Pinc"
+247-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:200:13-60
+248            android:exported="true"
+248-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:201:13-36
+249            android:label="Pin change" />
+249-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:202:13-39
+250        <activity
+250-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:203:9-206:41
+251            android:name="com.ecomflexi.softwarelabbd.mydevice"
+251-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:204:13-64
+252            android:exported="true"
+252-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:205:13-36
+253            android:label="My Device" />
+253-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:206:13-38
+254        <activity
+254-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:207:9-210:44
+255            android:name="com.ecomflexi.softwarelabbd.makepay"
+255-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:208:13-63
+256            android:exported="true"
+256-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:209:13-36
+257            android:label="Make payment" />
+257-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:210:13-41
+258        <activity
+258-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:211:9-214:47
+259            android:name="com.ecomflexi.softwarelabbd.Internet"
+259-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:212:13-64
+260            android:exported="true"
+260-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:213:13-36
+261            android:label="Internet Pakage" />
+261-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:214:13-44
+262        <activity
+262-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:215:9-218:47
+263            android:name="com.ecomflexi.softwarelabbd.InternetActivity"
+263-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:216:13-72
+264            android:exported="true"
+264-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:217:13-36
+265            android:label="Internet Pakage" />
+265-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:218:13-44
+266        <activity
+266-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:219:9-222:44
+267            android:name="com.ecomflexi.softwarelabbd.Payment_type"
+267-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:220:13-68
+268            android:exported="true"
+268-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:221:13-36
+269            android:label="Payment type" />
+269-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:222:13-41
+270        <activity
+270-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:223:9-226:43
+271            android:name="com.ecomflexi.softwarelabbd.Dlock"
+271-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:224:13-61
+272            android:exported="true"
+272-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:225:13-36
+273            android:label="Device Lock" />
+273-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:226:13-40
+274
+275        <receiver
+275-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:228:9-236:20
+276            android:name="com.ecomflexi.softwarelabbd.FirebaseBroadcastReceiver"
+276-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:229:13-81
+277            android:exported="true"
+277-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:230:13-36
+278            android:permission="com.google.android.c2dm.permission.SEND" >
+278-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:231:13-73
+279            <intent-filter>
+279-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:232:13-235:29
+280                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+280-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:233:17-81
+280-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:233:25-78
+281
+282                <category android:name="com.ecomflexi.softwarelabbd" />
+282-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:234:17-72
+282-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:234:27-69
+283            </intent-filter>
+284        </receiver>
+285
+286        <provider
+286-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:237:9-241:40
+287            android:name="com.squareup.picasso.PicassoProvider"
+287-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:239:13-64
+288            android:authorities="com.ecomflexi.softwarelabbd.com.squareup.picasso"
+288-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:240:13-83
+289            android:exported="false" />
+289-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:241:13-37
+290
+291        <service
+291-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:242:9-260:19
+292            android:name="com.google.firebase.components.ComponentDiscoveryService"
+292-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:243:13-84
+293            android:directBootAware="true"
+293-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e28824049203ec77baf172b61a353087\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+294            android:exported="false" >
+294-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:244:13-37
+295            <meta-data
+295-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:245:13-247:85
+296                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+296-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:246:17-108
+297                android:value="com.google.firebase.components.ComponentRegistrar" />
+297-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:247:17-82
+298            <meta-data
+298-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:248:13-250:85
+299                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+299-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:249:17-109
+300                android:value="com.google.firebase.components.ComponentRegistrar" />
+300-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:250:17-82
+301            <meta-data
+301-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:251:13-253:85
+302                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+302-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:252:17-117
+303                android:value="com.google.firebase.components.ComponentRegistrar" />
+303-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:253:17-82
+304            <meta-data
+304-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:254:13-256:85
+305                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+305-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:255:17-139
+306                android:value="com.google.firebase.components.ComponentRegistrar" />
+306-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:256:17-82
+307            <meta-data
+307-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:257:13-259:85
+308                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+308-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:258:17-96
+309                android:value="com.google.firebase.components.ComponentRegistrar" />
+309-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:259:17-82
+310            <meta-data
+310-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\dcc5e6fb9513a492ed1775617094c8a9\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+311                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+311-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\dcc5e6fb9513a492ed1775617094c8a9\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+312                android:value="com.google.firebase.components.ComponentRegistrar" />
+312-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\dcc5e6fb9513a492ed1775617094c8a9\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+313            <meta-data
+313-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\759614246e9fdf55efce0805b544cdfc\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+314                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+314-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\759614246e9fdf55efce0805b544cdfc\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+315                android:value="com.google.firebase.components.ComponentRegistrar" />
+315-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\759614246e9fdf55efce0805b544cdfc\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+316        </service>
+317        <!--
+318            <activity
+319            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+320            android:excludeFromRecents="true"
+321            android:exported="true"
+322            android:launchMode="singleTask"
+323            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+324            android:theme="@style/Theme.Translucent.NoTitleBar" />
+325        -->
+326        <!--
+327        <service
+328            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+329            android:exported="true">
+330            <intent-filter android:priority="-500">
+331                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+332            </intent-filter>
+333        </service>
+334        -->
+335        <!--
+336        <receiver
+337            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+338            android:exported="false"
+339            android:permission="com.google.android.c2dm.permission.SEND">
+340            <intent-filter>
+341                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+342            </intent-filter>
+343        </receiver>
+344        -->
+345        <!--
+346            <activity
+347            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+348            android:exported="false"
+349            android:theme="@style/Theme.Translucent.NoTitleBar" />
+350        -->
+351        <provider
+351-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:287:9-292:39
+352            android:name="com.google.firebase.provider.FirebaseInitProvider"
+352-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:289:13-77
+353            android:authorities="com.ecomflexi.softwarelabbd.firebaseinitprovider"
+353-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:290:13-83
+354            android:directBootAware="true"
+354-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e28824049203ec77baf172b61a353087\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+355            android:exported="false"
+355-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:291:13-37
+356            android:initOrder="100" />
+356-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:292:13-36
+357
+358        <!--
+359        <receiver
+360            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+361            android:enabled="true"
+362            android:exported="false" />
+363        <receiver
+364            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+365            android:enabled="true"
+366            android:exported="true"
+367            android:permission="android.permission.INSTALL_PACKAGES">
+368            <intent-filter>
+369                <action android:name="com.android.vending.INSTALL_REFERRER" />
+370            </intent-filter>
+371        </receiver>
+372        -->
+373
+374
+375        <!--
+376        <service
+377            android:name="com.google.android.gms.measurement.AppMeasurementService"
+378            android:enabled="true"
+379            android:exported="false" />
+380        <service
+381            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+382            android:enabled="true"
+383            android:exported="false"
+384            android:permission="android.permission.BIND_JOB_SERVICE" />
+385        -->
+386
+387        <receiver
+387-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:318:9-321:48
+388            android:name="com.onesignal.GcmBroadcastReceiver"
+388-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:319:13-62
+389            android:exported="true"
+389-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:320:13-36
+390            android:permission="com.google.android.c2dm.permission.SEND" > <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+390-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:60:13-73
+391            <intent-filter android:priority="999" >
+391-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:232:13-235:29
+392                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+392-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:233:17-81
+392-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:233:25-78
+393
+394                <category android:name="com.ecomflexi.softwarelabbd" />
+394-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:234:17-72
+394-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:234:27-69
+395            </intent-filter>
+396        </receiver>
+397        <receiver
+397-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:322:9-325:48
+398            android:name="com.onesignal.BootUpReceiver"
+398-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:323:13-56
+399            android:exported="true" >
+399-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:324:13-36
+400            <intent-filter>
+400-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:95:13-98:29
+401                <action android:name="android.intent.action.BOOT_COMPLETED" />
+401-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:96:17-79
+401-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:96:25-76
+402                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+402-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:97:17-82
+402-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:97:25-79
+403            </intent-filter>
+404        </receiver>
+405        <receiver
+405-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:326:9-329:48
+406            android:name="com.onesignal.UpgradeReceiver"
+406-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:327:13-57
+407            android:exported="true" >
+407-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:328:13-36
+408            <intent-filter>
+408-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:101:13-103:29
+409                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+409-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:102:17-84
+409-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:102:25-81
+410            </intent-filter>
+411        </receiver>
+412
+413        <activity android:name="com.ecomflexi.softwarelabbd.sliderAdapter.WebActivity" />
+413-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:331:9-63
+413-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:331:19-60
+414        <activity android:name="com.ecomflexi.softwarelabbd.sliderAdapter.AllSliderActivity" />
+414-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:332:9-69
+414-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:332:19-66
+415        <activity
+415-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:334:9-342:20
+416            android:name="com.ecomflexi.softwarelabbd.activities.ActivitySplash"
+416-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:335:13-81
+417            android:exported="true"
+417-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:336:13-36
+418            android:label="@string/ecommerce_name" >
+418-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:337:13-51
+419
+420            <!--
+421            <intent-filter>
+422                <action android:name="android.intent.action.MAIN" />
+423                <category android:name="android.intent.category.LAUNCHER" />
+424            </intent-filter>
+425            -->
+426        </activity>
+427        <activity
+427-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:343:9-351:20
+428            android:name="com.ecomflexi.softwarelabbd.activities.MainActivity"
+428-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:344:13-79
+429            android:exported="true"
+429-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:345:13-36
+430            android:label="@string/ecommerce_name" >
+430-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:346:13-51
+431            <intent-filter>
+431-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:347:13-350:29
+432                <action android:name="android.intent.action.MAIN" />
+432-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:64:17-69
+432-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:64:25-66
+433
+434                <category android:name="android.intent.category.DEFAULT" />
+434-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:349:17-76
+434-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:349:27-73
+435            </intent-filter>
+436        </activity>
+437        <activity
+437-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:352:9-354:52
+438            android:name="com.ecomflexi.softwarelabbd.activities.ActivityCart"
+438-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:353:13-79
+439            android:screenOrientation="portrait" />
+439-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:354:13-49
+440        <activity
+440-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:355:9-357:52
+441            android:name="com.ecomflexi.softwarelabbd.activities.ActivityProduct"
+441-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:356:13-82
+442            android:screenOrientation="portrait" />
+442-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:357:13-49
+443        <activity
+443-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:358:9-360:52
+444            android:name="com.ecomflexi.softwarelabbd.activities.ActivityProductDetail"
+444-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:359:13-88
+445            android:screenOrientation="portrait" />
+445-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:360:13-49
+446        <activity
+446-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:361:9-363:52
+447            android:name="com.ecomflexi.softwarelabbd.activities.ActivityCheckout"
+447-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:362:13-83
+448            android:screenOrientation="portrait" />
+448-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:363:13-49
+449        <activity
+449-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:364:9-366:52
+450            android:name="com.ecomflexi.softwarelabbd.activities.ActivityHistory"
+450-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:365:13-82
+451            android:screenOrientation="portrait" />
+451-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:366:13-49
+452        <activity
+452-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:367:9-369:52
+453            android:name="com.ecomflexi.softwarelabbd.activities.ActivityHelp"
+453-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:368:13-79
+454            android:screenOrientation="portrait" />
+454-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:369:13-49
+455        <activity
+455-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:370:9-372:52
+456            android:name="com.ecomflexi.softwarelabbd.activities.ActivityImageDetail"
+456-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:371:13-86
+457            android:screenOrientation="portrait" />
+457-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:372:13-49
+458        <activity
+458-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:373:9-375:52
+459            android:name="com.ecomflexi.softwarelabbd.activities.ActivityNotificationDetail"
+459-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:374:13-93
+460            android:screenOrientation="portrait" />
+460-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:375:13-49
+461        <activity
+461-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:376:9-379:43
+462            android:name="com.ecomflexi.softwarelabbd.activities.ActivitySettings"
+462-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:377:13-83
+463            android:screenOrientation="portrait"
+463-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:378:13-49
+464            android:theme="@style/Pref" />
+464-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:379:13-40
+465
+466        <!-- fcm -->
+467        <service
+467-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:382:9-388:19
+468            android:name="com.ecomflexi.softwarelabbd.notification.MyFirebaseMessagingService"
+468-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:383:13-95
+469            android:exported="true" >
+469-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:384:13-36
+470            <intent-filter>
+470-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:385:13-387:29
+471                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+471-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:386:17-78
+471-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:386:25-75
+472            </intent-filter>
+473        </service>
+474        <service
+474-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:389:9-395:19
+475            android:name="com.ecomflexi.softwarelabbd.notification.MyFirebaseInstanceIdService"
+475-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:390:13-96
+476            android:exported="true" >
+476-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:391:13-36
+477            <intent-filter>
+477-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:392:13-394:29
+478                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+478-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:393:17-80
+478-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:393:25-77
+479            </intent-filter>
+480        </service>
+481        <service
+481-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:396:9-403:19
+482            android:name="com.ecomflexi.softwarelabbd.notification.NotificationExtenderExample"
+482-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:397:13-96
+483            android:exported="true"
+483-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:398:13-36
+484            android:permission="android.permission.BIND_JOB_SERVICE" >
+484-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:399:13-69
+485            <intent-filter>
+485-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:400:13-402:29
+486                <action android:name="com.onesignal.NotificationExtender" />
+486-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:401:17-77
+486-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:401:25-74
+487            </intent-filter>
+488        </service>
+489
+490        <activity
+490-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:405:9-408:48
+491            android:name="com.ecomflexi.softwarelabbd.notification.NotificationExtenderExample"
+491-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:406:13-96
+492            android:exported="true" />
+492-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:407:13-36
+493        <activity
+493-->[com.karumi:dexter:4.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1bd76e9d7e40ae609797eb953bb59488\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:27:9-29:72
+494            android:name="com.karumi.dexter.DexterActivity"
+494-->[com.karumi:dexter:4.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1bd76e9d7e40ae609797eb953bb59488\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:28:13-60
+495            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+495-->[com.karumi:dexter:4.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1bd76e9d7e40ae609797eb953bb59488\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:29:13-69
+496
+497        <meta-data
+497-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:50:9-52:51
+498            android:name="onesignal_app_id"
+498-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:51:13-44
+499            android:value="5ba48ad2-59f4-4503-b62e-8ea290c610f7" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+499-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:52:13-48
+500        <meta-data
+500-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:54:9-56:70
+501            android:name="onesignal_google_project_number"
+501-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:55:13-59
+502            android:value="str:REMOTE" />
+502-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:56:13-67
+503
+504        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+504-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:69:9-77
+504-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:69:19-74
+505
+506        <service android:name="com.onesignal.GcmIntentService" />
+506-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:71:9-66
+506-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:71:18-63
+507        <service
+507-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:72:9-74:72
+508            android:name="com.onesignal.GcmIntentJobService"
+508-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:73:13-61
+509            android:permission="android.permission.BIND_JOB_SERVICE" />
+509-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:74:13-69
+510        <service
+510-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:75:9-77:72
+511            android:name="com.onesignal.RestoreJobService"
+511-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:76:13-59
+512            android:permission="android.permission.BIND_JOB_SERVICE" />
+512-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:77:13-69
+513        <service
+513-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:78:9-80:72
+514            android:name="com.onesignal.RestoreKickoffJobService"
+514-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:79:13-66
+515            android:permission="android.permission.BIND_JOB_SERVICE" />
+515-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:80:13-69
+516        <service
+516-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:81:9-83:43
+517            android:name="com.onesignal.SyncService"
+517-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:82:13-53
+518            android:stopWithTask="true" />
+518-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:83:13-40
+519        <service
+519-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:84:9-86:72
+520            android:name="com.onesignal.SyncJobService"
+520-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:85:13-56
+521            android:permission="android.permission.BIND_JOB_SERVICE" />
+521-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:86:13-69
+522
+523        <activity
+523-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:88:9-90:75
+524            android:name="com.onesignal.PermissionsActivity"
+524-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:89:13-61
+525            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+525-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:90:13-72
+526
+527        <service android:name="com.onesignal.NotificationRestoreService" />
+527-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:92:9-76
+527-->[com.onesignal:OneSignal:3.10.6] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\820fa26bd04db92abec4a7adc1ccd742\transformed\jetified-OneSignal-3.10.6\AndroidManifest.xml:92:18-73
+528        <!--
+529             FirebaseMessagingService performs security checks at runtime,
+530             no need for explicit permissions despite exported="true"
+531        -->
+532        <service
+532-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\4f73a83191c728bc4878e5e66a3f87d0\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+533            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+533-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\4f73a83191c728bc4878e5e66a3f87d0\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+534            android:exported="true" >
+534-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\4f73a83191c728bc4878e5e66a3f87d0\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+535            <intent-filter android:priority="-500" >
+535-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:385:13-387:29
+536                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+536-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:386:17-78
+536-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:386:25-75
+537            </intent-filter>
+538        </service>
+539
+540        <receiver
+540-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+541            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+541-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+542            android:exported="true"
+542-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+543            android:permission="com.google.android.c2dm.permission.SEND" >
+543-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+544            <intent-filter>
+544-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+545                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+545-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:233:17-81
+545-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:233:25-78
+546            </intent-filter>
+547        </receiver>
+548        <!--
+549             FirebaseInstanceIdService performs security checks at runtime,
+550             no need for explicit permissions despite exported="true"
+551        -->
+552        <service
+552-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+553            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+553-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+554            android:exported="true" >
+554-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8e0a7961fac8ddf0fd7a57e751251bcf\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+555            <intent-filter android:priority="-500" >
+555-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:392:13-394:29
+556                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+556-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:393:17-80
+556-->G:\Download\Project Sabbir Vai\makeniqalv3-master\app\src\main\AndroidManifest.xml:393:25-77
+557            </intent-filter>
+558        </service>
+559
+560        <provider
+560-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\84ddb2eaa887a1543d69f1fc2e72ad46\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+561            android:name="androidx.startup.InitializationProvider"
+561-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\84ddb2eaa887a1543d69f1fc2e72ad46\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+562            android:authorities="com.ecomflexi.softwarelabbd.androidx-startup"
+562-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\84ddb2eaa887a1543d69f1fc2e72ad46\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+563            android:exported="false" >
+563-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\84ddb2eaa887a1543d69f1fc2e72ad46\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+564            <meta-data
+564-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\84ddb2eaa887a1543d69f1fc2e72ad46\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+565                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+565-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\84ddb2eaa887a1543d69f1fc2e72ad46\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+566                android:value="androidx.startup" />
+566-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\84ddb2eaa887a1543d69f1fc2e72ad46\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+567            <meta-data
+567-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\39a084b2b8a43d344dd29f5f661d8d84\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+568                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+568-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\39a084b2b8a43d344dd29f5f661d8d84\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+569                android:value="androidx.startup" />
+569-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\39a084b2b8a43d344dd29f5f661d8d84\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+570            <meta-data
+570-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+571                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+571-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+572                android:value="androidx.startup" />
+572-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+573        </provider>
+574
+575        <activity
+575-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\73001183d4704ed8cd3b77be2b2ca6c4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+576            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+576-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\73001183d4704ed8cd3b77be2b2ca6c4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+577            android:exported="false"
+577-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\73001183d4704ed8cd3b77be2b2ca6c4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+578            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+578-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\73001183d4704ed8cd3b77be2b2ca6c4\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+579
+580        <meta-data
+580-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\037488cb22ddf45101b4e9c20437fc23\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+581            android:name="com.google.android.gms.version"
+581-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\037488cb22ddf45101b4e9c20437fc23\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+582            android:value="@integer/google_play_services_version" />
+582-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\037488cb22ddf45101b4e9c20437fc23\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+583
+584        <receiver
+584-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+585            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+585-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+586            android:directBootAware="false"
+586-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+587            android:enabled="true"
+587-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+588            android:exported="true"
+588-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+589            android:permission="android.permission.DUMP" >
+589-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+590            <intent-filter>
+590-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+591                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+591-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+591-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+592            </intent-filter>
+593            <intent-filter>
+593-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+594                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+594-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+594-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+595            </intent-filter>
+596            <intent-filter>
+596-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+597                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+597-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+597-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+598            </intent-filter>
+599            <intent-filter>
+599-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+600                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+600-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+600-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fbf9f41c81e9f86e02fe59f58c8d042e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+601            </intent-filter>
+602        </receiver>
+603    </application>
+604
+605</manifest>
