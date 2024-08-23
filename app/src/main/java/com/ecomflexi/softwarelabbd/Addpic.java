@@ -53,6 +53,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Addpic extends Activity {
+
     private static final int CAMERA_PERMISSION_CODE = 100;
     private static final int PICK_FROM_CAMERA = 1;
     private static final int PICK_FROM_GALLARY = 2;

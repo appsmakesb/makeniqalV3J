@@ -688,7 +688,7 @@ public class Welcome extends AppCompatActivity {
         if (arrayList.isEmpty()) {
             return true;
         }
-        showDialog_permission(this);
+//      showDialog_permission(this);
         return false;
     }
 
